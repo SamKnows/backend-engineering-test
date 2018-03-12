@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+    test:
+        build: .
+        command: php bin/phpunit
+        working_dir: /var/www/backend-engineering-test
+        volumes:
+            - ./:/var/www/backend-engineering-test:delegated
+
+    shell:
+        build: .
+        command: /bin/sh
+        working_dir: /var/www/backend-engineering-test
+        volumes:
+            - ./:/var/www/backend-engineering-test:delegated

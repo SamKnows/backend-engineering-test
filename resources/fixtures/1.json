@@ -1,0 +1,130 @@
+{
+  "code": "OK",
+  "message": "Request successful",
+  "data": [
+    {
+      "metricData": [
+        {
+          "metricValue": 12693166.98,
+          "dtime": "2018-01-29"
+        },
+        {
+          "metricValue": 12668239.57,
+          "dtime": "2018-01-30"
+        },
+        {
+          "metricValue": 12723772.1,
+          "dtime": "2018-01-31"
+        },
+        {
+          "metricValue": 12771101.69,
+          "dtime": "2018-02-01"
+        },
+        {
+          "metricValue": 12662092.12,
+          "dtime": "2018-02-02"
+        },
+        {
+          "metricValue": 12737616.12,
+          "dtime": "2018-02-03"
+        },
+        {
+          "metricValue": 12655951.55,
+          "dtime": "2018-02-04"
+        },
+        {
+          "metricValue": 12691421.95,
+          "dtime": "2018-02-05"
+        },
+        {
+          "metricValue": 12741567.9,
+          "dtime": "2018-02-06"
+        },
+        {
+          "metricValue": 12846544.45,
+          "dtime": "2018-02-07"
+        },
+        {
+          "metricValue": 12916041.52,
+          "dtime": "2018-02-08"
+        },
+        {
+          "metricValue": 12840269.68,
+          "dtime": "2018-02-09"
+        },
+        {
+          "metricValue": 12778367.71,
+          "dtime": "2018-02-10"
+        },
+        {
+          "metricValue": 12736664.49,
+          "dtime": "2018-02-11"
+        },
+        {
+          "metricValue": 12929602.7,
+          "dtime": "2018-02-12"
+        },
+        {
+          "metricValue": 12781830.33,
+          "dtime": "2018-02-13"
+        },
+        {
+          "metricValue": 12888361.85,
+          "dtime": "2018-02-14"
+        },
+        {
+          "metricValue": 12907999.21,
+          "dtime": "2018-02-15"
+        },
+        {
+          "metricValue": 12957403.2,
+          "dtime": "2018-02-16"
+        },
+        {
+          "metricValue": 12955177.61,
+          "dtime": "2018-02-17"
+        },
+        {
+          "metricValue": 12886765.91,
+          "dtime": "2018-02-18"
+        },
+        {
+          "metricValue": 12957599.94,
+          "dtime": "2018-02-19"
+        },
+        {
+          "metricValue": 12915920.13,
+          "dtime": "2018-02-20"
+        },
+        {
+          "metricValue": 12991749.01,
+          "dtime": "2018-02-21"
+        },
+        {
+          "metricValue": 12891213.49,
+          "dtime": "2018-02-22"
+        },
+        {
+          "metricValue": 12958763.06,
+          "dtime": "2018-02-23"
+        },
+        {
+          "metricValue": 12940952.33,
+          "dtime": "2018-02-24"
+        },
+        {
+          "metricValue": 12781257.34,
+          "dtime": "2018-02-25"
+        },
+        {
+          "metricValue": 13009673.74,
+          "dtime": "2018-02-26"
+        },
+        {
+          "metricValue": 12912617.09,
+          "dtime": "2018-02-27"
+        }
+      ]
+    }
+  ]
+}
