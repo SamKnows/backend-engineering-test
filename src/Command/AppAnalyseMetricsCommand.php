@@ -77,7 +77,6 @@ class AppAnalyseMetricsCommand extends Command
         $statsViewModel->maximumSpeed = $metrics->maximumSpeed();
         $statsViewModel->fromDate = $metrics->fromDate();
         $statsViewModel->toDate = $metrics->toDate();
-        $statsViewModel->isMinimumTooLow = $metrics->isMinimumTooLow();
 
         $output->write($this->twig->render('stats.txt.twig', ['viewModel' => $statsViewModel]));
     }
