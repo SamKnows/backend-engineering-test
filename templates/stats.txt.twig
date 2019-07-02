@@ -1,0 +1,23 @@
+SamKnows Metric Analyser v1.0.0
+===============================
+
+Period checked:
+
+    From: {{ viewModel.fromDate.format('Y-m-d') }}
+    To:   {{ viewModel.toDate.format('Y-m-d') }}
+
+Statistics:
+
+    Unit: Megabits per second
+
+    Average: {{ viewModel.averageSpeed|bytesToMegabit|number_format(2) }}
+    Min: {{ viewModel.minimumSpeed|bytesToMegabit|number_format(2) }}
+    Max: {{ viewModel.maximumSpeed|bytesToMegabit|number_format(2) }}
+    Median: {{ viewModel.medianSpeed|bytesToMegabit|number_format(2) }}
+
+{% if viewModel.isMinimumTooLow %}
+Investigate:
+
+    * The period between {{ viewModel.fromDate.format('Y-m-d') }} and {{ viewModel.toDate.format('Y-m-d') }}
+      was under-performing.
+{% endif %}
