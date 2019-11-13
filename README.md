@@ -1,9 +1,3 @@
-
-<div align="center">
-  <img src="samknows.png" align="center" width="60">
-  <h1 align="center">SamKnows Backend Engineering Test</h1>
-</div>
-
 ## Summary
 
 This project has two test cases you need to make pass.
@@ -57,7 +51,3 @@ make shell
 
 to jump into the container to run composer, etc ...
 
-
-## Conclusion
-
-Good luck, we hope to hear from you soon!
